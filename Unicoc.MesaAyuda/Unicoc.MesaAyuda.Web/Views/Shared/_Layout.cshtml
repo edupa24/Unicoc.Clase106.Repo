@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"] · Unicoc.MesaAyuda</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header><a asp-controller="Home" asp-action="Index">Unicoc.MesaAyuda</a><span>Clase 106 · ASP.NET MVC</span></header>
+    <main>
+        @if (TempData["Mensaje"] is string mensaje)
+        {
+            <p class="aviso @TempData["Tipo"]" role="status">@mensaje</p>
+        }
+        @RenderBody()
+    </main>
+    <footer>Ejemplo didáctico · Datos en memoria</footer>
+</body>
+</html>

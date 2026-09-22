@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Unicoc.MesaAyuda.Shared/Unicoc.MesaAyuda.Shared.csproj" />
+  <Project Path="Unicoc.MesaAyuda.Core/Unicoc.MesaAyuda.Core.csproj" />
+  <Project Path="Unicoc.MesaAyuda.Infrastructure/Unicoc.MesaAyuda.Infrastructure.csproj" />
+  <Project Path="Unicoc.MesaAyuda.Web/Unicoc.MesaAyuda.Web.csproj" />
+</Solution>

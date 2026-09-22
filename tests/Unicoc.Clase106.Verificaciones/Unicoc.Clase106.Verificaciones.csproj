@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../Unicoc.Biblioteca/Unicoc.Biblioteca.Infrastructure/Unicoc.Biblioteca.Infrastructure.csproj" />
+    <ProjectReference Include="../../Unicoc.Inventario/Unicoc.Inventario.Infrastructure/Unicoc.Inventario.Infrastructure.csproj" />
+    <ProjectReference Include="../../Unicoc.MesaAyuda/Unicoc.MesaAyuda.Infrastructure/Unicoc.MesaAyuda.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

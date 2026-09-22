@@ -1,0 +1,13 @@
+:root { font-family: system-ui, sans-serif; color: #182b44; background: #f4f7fb; }
+body { margin: 0; } header, main, footer { max-width: 1050px; margin: auto; padding: 24px; }
+header { display: flex; justify-content: space-between; gap: 20px; border-bottom: 1px solid #ccd5e0; }
+a { color: #174d96; } header a { font-weight: 700; } h1 { margin-bottom: 8px; }
+.tabla { overflow-x: auto; } table { width: 100%; border-collapse: collapse; background: white; }
+th, td { padding: 16px; text-align: left; border-bottom: 1px solid #dce3ec; }
+button, .boton { display: inline-block; background: #174d96; color: white; border: 0; border-radius: 6px; padding: 10px 16px; cursor: pointer; font: inherit; text-decoration: none; }
+.acciones { display: flex; flex-wrap: wrap; gap: 8px; } .editor { max-width: 520px; display: grid; gap: 12px; }
+input { padding: 12px; border: 1px solid #8192a7; border-radius: 6px; font: inherit; }
+.aviso { padding: 16px; border: 1px solid; border-radius: 6px; } .exito { color: #13603a; background: #e5f6ed; }
+.error { color: #992727; } footer { color: #4c6079; }
+:focus-visible { outline: 3px solid #bd6c00; outline-offset: 3px; }
+@media(max-width: 600px) { header { flex-direction: column; } th, td { padding: 10px; } }

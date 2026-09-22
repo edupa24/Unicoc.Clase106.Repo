@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Unicoc.Inventario.Core/Unicoc.Inventario.Core.csproj" />
+    <ProjectReference Include="../Unicoc.Inventario.Infrastructure/Unicoc.Inventario.Infrastructure.csproj" />
+    <ProjectReference Include="../Unicoc.Inventario.Shared/Unicoc.Inventario.Shared.csproj" />
+  </ItemGroup>
+</Project>

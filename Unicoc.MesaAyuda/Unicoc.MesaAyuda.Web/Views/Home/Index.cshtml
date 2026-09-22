@@ -1,0 +1,25 @@
+@model IReadOnlyList<Solicitud>
+@{ ViewData["Title"] = "MesaAyuda"; }
+<h1>Mesa de ayuda</h1>
+<p>Registrar solicitudes de soporte y resolver casos pendientes.</p>
+<a class="boton" asp-action="Crear">Crear registro</a>
+<p>@Model.Count registro(s)</p>
+<div class="tabla">
+<table>
+    <thead><tr><th>Asunto</th><th>Solicitante</th><th>Estado</th><th>Acciones</th></tr></thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Nombre</td><td>@item.Detalle</td><td>@(item.Resuelta ? "Resuelta" : "Pendiente")</td>
+            <td class="acciones">
+                <form asp-action="Resolver" method="post">
+                    <input type="hidden" name="id" value="@item.Id" />
+                    <button type="submit">Resolver</button>
+                </form>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+</div>

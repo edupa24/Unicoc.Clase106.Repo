@@ -1,0 +1,23 @@
+<Solution>
+  <Folder Name="/tests/">
+    <Project Path="tests/Unicoc.Clase106.Verificaciones/Unicoc.Clase106.Verificaciones.csproj" />
+  </Folder>
+  <Folder Name="/Unicoc.Biblioteca/">
+    <Project Path="Unicoc.Biblioteca/Unicoc.Biblioteca.Core/Unicoc.Biblioteca.Core.csproj" />
+    <Project Path="Unicoc.Biblioteca/Unicoc.Biblioteca.Infrastructure/Unicoc.Biblioteca.Infrastructure.csproj" />
+    <Project Path="Unicoc.Biblioteca/Unicoc.Biblioteca.Shared/Unicoc.Biblioteca.Shared.csproj" />
+    <Project Path="Unicoc.Biblioteca/Unicoc.Biblioteca.Web/Unicoc.Biblioteca.Web.csproj" />
+  </Folder>
+  <Folder Name="/Unicoc.Inventario/">
+    <Project Path="Unicoc.Inventario/Unicoc.Inventario.Core/Unicoc.Inventario.Core.csproj" />
+    <Project Path="Unicoc.Inventario/Unicoc.Inventario.Infrastructure/Unicoc.Inventario.Infrastructure.csproj" />
+    <Project Path="Unicoc.Inventario/Unicoc.Inventario.Shared/Unicoc.Inventario.Shared.csproj" />
+    <Project Path="Unicoc.Inventario/Unicoc.Inventario.Web/Unicoc.Inventario.Web.csproj" />
+  </Folder>
+  <Folder Name="/Unicoc.MesaAyuda/">
+    <Project Path="Unicoc.MesaAyuda/Unicoc.MesaAyuda.Core/Unicoc.MesaAyuda.Core.csproj" />
+    <Project Path="Unicoc.MesaAyuda/Unicoc.MesaAyuda.Infrastructure/Unicoc.MesaAyuda.Infrastructure.csproj" />
+    <Project Path="Unicoc.MesaAyuda/Unicoc.MesaAyuda.Shared/Unicoc.MesaAyuda.Shared.csproj" />
+    <Project Path="Unicoc.MesaAyuda/Unicoc.MesaAyuda.Web/Unicoc.MesaAyuda.Web.csproj" />
+  </Folder>
+</Solution>

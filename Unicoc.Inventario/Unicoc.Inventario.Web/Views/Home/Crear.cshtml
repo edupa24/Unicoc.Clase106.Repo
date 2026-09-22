@@ -1,0 +1,12 @@
+@model CrearViewModel
+@{ ViewData["Title"] = "Crear registro"; }
+<h1>Crear registro</h1>
+<form asp-action="Crear" method="post" class="editor">
+    <div asp-validation-summary="All" class="error" role="alert"></div>
+    <label asp-for="Nombre"></label>
+    <input asp-for="Nombre" maxlength="100" required />
+    <label asp-for="Detalle"></label>
+    <input asp-for="Detalle" maxlength="100" required />
+    <button type="submit">Guardar</button>
+    <a asp-action="Index">Volver al listado</a>
+</form>

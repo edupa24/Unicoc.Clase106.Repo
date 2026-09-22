@@ -1,0 +1,29 @@
+@model IReadOnlyList<Libro>
+@{ ViewData["Title"] = "Biblioteca"; }
+<h1>Biblioteca</h1>
+<p>Registrar libros, prestar y devolver ejemplares.</p>
+<a class="boton" asp-action="Crear">Crear registro</a>
+<p>@Model.Count registro(s)</p>
+<div class="tabla">
+<table>
+    <thead><tr><th>Título</th><th>Autor</th><th>Estado</th><th>Acciones</th></tr></thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Nombre</td><td>@item.Detalle</td><td>@(item.Disponible ? "Disponible" : "Prestado")</td>
+            <td class="acciones">
+                <form asp-action="Prestar" method="post">
+                    <input type="hidden" name="id" value="@item.Id" />
+                    <button type="submit">Prestar</button>
+                </form>
+                <form asp-action="Devolver" method="post">
+                    <input type="hidden" name="id" value="@item.Id" />
+                    <button type="submit">Devolver</button>
+                </form>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+</div>

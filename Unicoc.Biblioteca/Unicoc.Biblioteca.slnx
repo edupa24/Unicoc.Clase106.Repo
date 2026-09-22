@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Unicoc.Biblioteca.Shared/Unicoc.Biblioteca.Shared.csproj" />
+  <Project Path="Unicoc.Biblioteca.Core/Unicoc.Biblioteca.Core.csproj" />
+  <Project Path="Unicoc.Biblioteca.Infrastructure/Unicoc.Biblioteca.Infrastructure.csproj" />
+  <Project Path="Unicoc.Biblioteca.Web/Unicoc.Biblioteca.Web.csproj" />
+</Solution>

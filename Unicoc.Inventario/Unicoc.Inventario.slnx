@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Unicoc.Inventario.Shared/Unicoc.Inventario.Shared.csproj" />
+  <Project Path="Unicoc.Inventario.Core/Unicoc.Inventario.Core.csproj" />
+  <Project Path="Unicoc.Inventario.Infrastructure/Unicoc.Inventario.Infrastructure.csproj" />
+  <Project Path="Unicoc.Inventario.Web/Unicoc.Inventario.Web.csproj" />
+</Solution>
